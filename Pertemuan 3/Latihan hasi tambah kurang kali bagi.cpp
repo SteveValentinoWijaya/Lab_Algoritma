@@ -7,14 +7,13 @@ int main() {
 	cout << "Masukkan bilangan satu: ";
 	cin >> x;
 	cout << "Masukkan bilangan dua: ";
-    cin >> y;
-    
-tambah = x+y;
-kurang = x-y;
-kali = x*y;
-bagi = x:y;
-modulo = x%y;
-
+	cin >> y;
+	
+	tambah = x+y;
+	kurang = x-y;
+	kali = x*y;
+	bagi = x:y;
+	modulo = x%y;
     
     cout << "Hasil penjumlahan x dan y adalah " << tambah << endl;
     cout << "Hasil pengurangan x dan y adalah " << kurang << endl;
